@@ -1,22 +1,27 @@
 # Hi, I'm Yusufbek
 
-I build practical AI tooling for small teams: MCP servers that connect Claude to your data, Claude Code plugins that package your workflows, and Discord and Telegram bots.
+I build practical automation and AI tooling for small businesses: Telegram bots, document automation, assistants that answer from your own docs, and Claude integrations.
 
 ## Projects
 
-- **[mcp-readonly-db](https://github.com/yusufbek-labs/mcp-readonly-db)**: a read-only SQLite MCP server for Claude. Four tools, layered SQL safety, an append-only audit log and 38 automated tests.
-- **[claude-plugin-content-kit](https://github.com/yusufbek-labs/claude-plugin-content-kit)**: a Claude Code plugin with 3 skills, 2 slash commands, a reviewer subagent and a safe hook.
+| Project | What it does |
+|---|---|
+| **[telegram-shop-bot](https://github.com/yusufbek-labs/telegram-shop-bot)** | A shop inside Telegram: catalog, cart, checkout, order statuses and an admin panel in the chat. EN/RU, 198 tests. |
+| **[docflow](https://github.com/yusufbek-labs/docflow)** | Turns a folder of PDF invoices into validated data, filled Word documents and an Excel summary. Doubtful invoices go to a review sheet instead of being guessed. |
+| **[askdocs](https://github.com/yusufbek-labs/askdocs)** | Answers questions from your company documents with citations, and says "I don't know" when the docs don't cover it. CLI, web API, offline demo. |
+| **[mcp-readonly-db](https://github.com/yusufbek-labs/mcp-readonly-db)** | Lets Claude query a SQLite database safely: read-only, layered SQL checks, audit log. |
+| **[claude-plugin-content-kit](https://github.com/yusufbek-labs/claude-plugin-content-kit)** | A Claude Code plugin that packages a content workflow into skills, commands and a reviewer subagent. |
 
-Both are sample projects: real, working code that shows how I build and test.
+These are portfolio projects: working, tested code that shows how I build. Each README has a quick start and real output.
 
 ## Stack
 
-Python · Node.js · TypeScript · Model Context Protocol · Claude API · Claude Code · SQLite
+Python · aiogram · FastAPI · SQLAlchemy · SQLite · Node.js · TypeScript · Claude API · Model Context Protocol · Claude Code
 
 ## How I work
 
+- Asynchronous by default: a written plan, progress updates and a demo you can run yourself. No calls needed.
 - I use AI coding tools in my workflow, and I review and test everything I deliver.
-- Read-only and least-privilege defaults whenever AI touches your data.
-- Working code, a README your team can follow, and fast replies.
+- Tests and a README your team can follow come with every project.
 
 Available for freelance work.
