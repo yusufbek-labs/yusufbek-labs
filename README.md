@@ -21,7 +21,6 @@ Python · aiogram · FastAPI · SQLAlchemy · SQLite · Node.js · TypeScript ·
 ## How I work
 
 - Asynchronous by default: a written plan, progress updates and a demo you can run yourself. No calls needed.
-- I use AI coding tools in my workflow, and I review and test everything I deliver.
 - Tests and a README your team can follow come with every project.
 
 Available for freelance work.
